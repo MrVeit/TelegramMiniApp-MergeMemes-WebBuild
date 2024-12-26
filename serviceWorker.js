@@ -1,7 +1,7 @@
 let buildDirectory = "Build"
 let templateDataDir = "TemplateData";
 
-let cacheName = "HyyyyperCache";
+let cacheName = "MemeCache";
 let buildVersion = "default";
 
 self.addEventListener("message", (event) =>

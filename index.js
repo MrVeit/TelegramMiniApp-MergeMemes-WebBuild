@@ -4,7 +4,6 @@ var unsubscribe;
 var container = document.querySelector("#unity-container");
 var progressBarContainer = document.querySelector(".progress-bar-container");
 var progressBar = document.querySelector(".progress-bar");
-var gameHeader = document.querySelector("#game-header");
 
 var buildUrl = "Build";
 var loaderUrl = buildUrl + "/TelegramMiniApp-MergeMemes-WebBuild.loader.js";
@@ -33,7 +32,6 @@ if (isMobile())
   }
 
 progressBarContainer.style.display = "block";
-gameHeader.style.display = "block";
 
 var script = document.createElement("script");
 script.src = loaderUrl;
@@ -50,7 +48,6 @@ script.onload = () =>
     window.unityInstance = unityInstance;
 
     progressBarContainer.style.display = "none";
-    gameHeader.style.display = "none";
   })
   .catch((message) =>
   {
