@@ -14,7 +14,7 @@ var config = {
     streamingAssetsUrl: "StreamingAssets",
     companyName: "Veiterio Games",
     productName: "Merge Memes",
-    productVersion: "1.3.1"
+    productVersion: "1.3.2"
 };
 
 function isMobile()
